@@ -29,14 +29,32 @@ struct Playlist: Identifiable, Hashable {
     }
 }
 
-struct DownloadItem: Identifiable, ObservableObject {
+final class DownloadItem: Identifiable, ObservableObject {
     let id: UUID
     let title: String
     let url: String
-    @Published var progress: Double = 0.0
-    @Published var status: String = "Queued"
-    @Published var isCompleted: BooleanLiteralType = false
+    @Published var progress: Double
+    @Published var status: String
+    @Published var isCompleted: Bool
     let destinationURL: URL
+
+    init(
+        id: UUID = UUID(),
+        title: String,
+        url: String,
+        progress: Double = 0.0,
+        status: String = "Queued",
+        isCompleted: Bool = false,
+        destinationURL: URL
+    ) {
+        self.id = id
+        self.title = title
+        self.url = url
+        self.progress = progress
+        self.status = status
+        self.isCompleted = isCompleted
+        self.destinationURL = destinationURL
+    }
 }
 
 struct EqualizerBand: Identifiable {
