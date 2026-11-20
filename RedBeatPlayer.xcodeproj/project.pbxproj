@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* RedBeatPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* RedBeatPlayerApp.swift */; };
+		A1000002 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* Theme.swift */; };
+		A1000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* Models.swift */; };
+		A1000004 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* AudioPlayerService.swift */; };
+		A1000005 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* MusicViewModel.swift */; };
+		A1000006 /* DownloadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* DownloadViewModel.swift */; };
+		A1000007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* ContentView.swift */; };
+		A1000008 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* LibraryView.swift */; };
+		A1000009 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* NowPlayingView.swift */; };
+		A100000A /* EqualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000A /* EqualizerView.swift */; };
+		A100000B /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000B /* PlaylistsView.swift */; };
+		A100000C /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000C /* DownloadsView.swift */; };
+		A100000D /* WifiTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000D /* WifiTransferView.swift */; };
+		A100000E /* MiniPlayerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000E /* MiniPlayerBar.swift */; };
+		A100000F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1000001 /* RedBeatPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBeatPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000001 /* RedBeatPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBeatPlayerApp.swift; sourceTree = "<group>"; };
+		B1000002 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B1000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1000004 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		B1000005 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		B1000006 /* DownloadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewModel.swift; sourceTree = "<group>"; };
+		B1000007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1000008 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		B1000009 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		B100000A /* EqualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualizerView.swift; sourceTree = "<group>"; };
+		B100000B /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		B100000C /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		B100000D /* WifiTransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTransferView.swift; sourceTree = "<group>"; };
+		B100000E /* MiniPlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerBar.swift; sourceTree = "<group>"; };
+		B100000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1000001 = {
+			isa = PBXGroup;
+			children = (
+				E1000002 /* RedBeatPlayer */,
+				E1000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1000002 /* RedBeatPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* RedBeatPlayerApp.swift */,
+				E1000003 /* Resources */,
+				E1000004 /* Models */,
+				E1000005 /* Services */,
+				E1000006 /* ViewModels */,
+				E1000007 /* Views */,
+				B100000F /* Assets.xcassets */,
+				B1000010 /* Info.plist */,
+			);
+			path = RedBeatPlayer;
+			sourceTree = "<group>";
+		};
+		E1000003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1000002 /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000003 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1000004 /* AudioPlayerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E1000006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1000005 /* MusicViewModel.swift */,
+				B1000006 /* DownloadViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1000007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000007 /* ContentView.swift */,
+				B1000008 /* LibraryView.swift */,
+				B1000009 /* NowPlayingView.swift */,
+				B100000A /* EqualizerView.swift */,
+				B100000B /* PlaylistsView.swift */,
+				B100000C /* DownloadsView.swift */,
+				B100000D /* WifiTransferView.swift */,
+				B100000E /* MiniPlayerBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* RedBeatPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1000001 /* RedBeatPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G1000001 /* Build configuration list for PBXNativeTarget "RedBeatPlayer" */;
+			buildPhases = (
+				H1000001 /* Sources */,
+				D1000001 /* Frameworks */,
+				I1000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBeatPlayer;
+			productName = RedBeatPlayer;
+			productReference = C1000001 /* RedBeatPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		J1000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F1000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = K1000001 /* Build configuration list for PBXProject "RedBeatPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1000001;
+			productRefGroup = E1000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1000001 /* RedBeatPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		I1000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		H1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* RedBeatPlayerApp.swift in Sources */,
+				A1000002 /* Theme.swift in Sources */,
+				A1000003 /* Models.swift in Sources */,
+				A1000004 /* AudioPlayerService.swift in Sources */,
+				A1000005 /* MusicViewModel.swift in Sources */,
+				A1000006 /* DownloadViewModel.swift in Sources */,
+				A1000007 /* ContentView.swift in Sources */,
+				A1000008 /* LibraryView.swift in Sources */,
+				A1000009 /* NowPlayingView.swift in Sources */,
+				A100000A /* EqualizerView.swift in Sources */,
+				A100000B /* PlaylistsView.swift in Sources */,
+				A100000C /* DownloadsView.swift in Sources */,
+				A100000D /* WifiTransferView.swift in Sources */,
+				A100000E /* MiniPlayerBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		L1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		L1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		M1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RedBeatPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbeatplayer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		M1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RedBeatPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbeatplayer.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		K1000001 /* Build configuration list for PBXProject "RedBeatPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				L1000001 /* Debug */,
+				L1000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G1000001 /* Build configuration list for PBXNativeTarget "RedBeatPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				M1000001 /* Debug */,
+				M1000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = J1000001 /* Project object */;
+}
