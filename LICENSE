@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 LM7BOS (@LM7BOS)
+Instagram: https://instagram.com/LM7BOS
+GitHub:    https://github.com/ADAM0S999
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+RedBeat Player v5.0
+A red & black themed offline music player for Android and iOS.
+
+Features:
+- 5-Band Parametric Equalizer (60Hz, 230Hz, 910Hz, 3.6kHz, 14kHz)
+- Bass Boost & 3D Virtualizer
+- Direct URL Music Downloader (MP3, M4A, M3U/M3U8)
+- Local File & Folder Import
+- Wi-Fi Music Transfer
+- Smart Playlist Manager
+- Lock Screen & Headphone Controls
+- Purple Moon Mascot App Icon
+
+Designed with love by @LM7BOS
